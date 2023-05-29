@@ -1,0 +1,771 @@
+*{
+  font-family: 'Century Gothic';
+  font-style: italic;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: #FFE9F4;
+    
+  }
+  
+  .menu{
+    padding-left: 460px;
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 147px;
+  }
+
+  .orderNow{
+    width: 201px;
+    height: 63px;
+    font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 27px;
+margin-top: 20px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+  
+  background-color: #930348;
+  border-radius: 60px;
+  }
+
+  header {
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 10px 165px;
+
+
+
+left: 0px;
+top: 0px;
+    background: rgba(147, 3, 72, 0.5);
+    backdrop-filter: blur(2px);
+  }
+  .logo{
+    font-style: normal;
+font-weight: 400;
+color: #2F221C;
+  }
+  .menu li a{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 31px;
+    text-decoration: none;
+    color: #2F221C;
+    padding: 5px;
+  }
+  .menu .home a{
+
+  color: #930348;
+
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav .menu{
+    margin-top: 5px;
+  }
+
+  
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 10px;
+    padding-left: 20px;
+  }
+  
+ 
+  
+  .user-cart {
+    display: flex;
+    align-items: center;
+    margin-right: 2vw;
+  }
+  
+  .user-cart a {
+    margin-left: 3vw;
+    color: #1D1D1D;
+  }
+  .user-cart .login {
+    padding: 5px 20px;
+    background-color: #D9D9D9;
+    color: #1D1D1D;
+    text-decoration: none;
+    border-radius: 10px;
+
+  }
+  
+  .user-cart a img {
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  .main_container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    vertical-align: middle;
+    max-width: 80vw;
+    padding-left: 180px;
+  }
+  
+  .sushifood .description{
+    width: 439px;
+  height: 93px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 31px;
+  }
+
+  .sushifood h1{
+    font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 74px;
+  }
+  .sushifood div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .sushifood div p{
+    font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 61px;
+padding-left: 10px;
+color: #2F221C;
+  }
+
+  .leaf-branch-1{
+  position: absolute;
+  width: 300px;
+  height: 500px;
+ right: 0;
+  top: 700px;
+  }
+  .leaf-branch-2{
+    position: absolute;
+width: 161.56px;
+height: 192.75px;
+left: 0;
+top: 90px;
+
+  }
+  .leaf-branch-4{
+    position: absolute;
+    width: 189px;
+    height: 208px;
+    right: 0;
+    top: 380px;
+
+  }
+
+ .newsletter{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 80vw;
+  margin-left: 10vw;
+  background: #2F221C;
+  border-radius: 100px;
+  margin-top: 18vh;
+ }
+
+ .mahmud img{
+  margin-left: -15vw;
+ }
+
+ .news .news-title{
+  font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 49px;
+/* identical to box height */
+
+
+color: #930348;
+ }
+
+ .news{
+  margin-left: -7vw;
+ 
+ }
+
+ .news .news-subscribe{
+  font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 61px;
+
+color: #FFFFFF;
+ }
+
+ .email{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 451px;
+height: 78px;
+  align-items: center;
+  background: #D9D9D9;
+  border-radius: 70px;
+ }
+
+ .email .enter{
+  font-style: italic;
+font-weight: 700;
+font-size: 25px;
+line-height: 31px;
+/* identical to box height */
+margin-right: 65px;
+
+color: #2F221C;
+ }
+
+ .email .subscribe{
+  margin-left: 30px;
+  width: 183px;
+height: 60px;
+left: 1181px;
+top: 3784px;
+font-style: italic;
+font-weight: 700;
+font-size: 25px;
+line-height: 31px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+background: #930348;
+border-radius: 60px;
+ }
+  .main_container .Sushiimage img{
+   width: 820px;
+    left: 737px;
+    top: 338.41px;
+  }
+ 
+
+
+  .main_container2{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    vertical-align: middle;
+    max-width: 80vw;
+    padding-left: 180px;
+    padding-top: 7vh;
+  }
+ .about-sushi{
+  width: 480px;
+ }
+
+  .about-us h1{
+    font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 49px;
+/* identical to box height */
+
+
+color: #930348;
+  }
+
+  .about-us p{
+    font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 74px;
+
+color: #2F221C;
+
+  }
+
+  .about-us div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .about-us .description{
+    font-style: italic;
+font-weight: 700;
+font-size: 25px;
+line-height: 31px;
+width: 620px;
+height: 124px;
+color: #2F221C;
+  }
+  .image-container img {
+    display: block;
+    
+  }
+
+  
+  .link {
+    position: absolute;
+    background-color: #D9D9D9;
+    font-size: 20px;
+    width: 90px;
+    border-radius: 20px;
+    top: 5%;
+    left: 9%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  .link2 {
+    position: absolute;
+    background-color: #D9D9D9;
+    font-size: 18px;
+    width: 90px;
+    border-radius: 18px;
+    top: 12%;
+    left: 29%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+   .blocks .another{
+    display: block;
+   }
+  /* Необязательный стиль при наведении на кнопку */
+  .search-button:hover {
+    background-color: #ff4fa4;
+  }
+
+  .carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-inner img {
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    margin-right: 10px;
+  }
+  
+  .title{
+    
+    font-style: normal;
+    padding-left: 40vw;
+    padding-top: 13vh;
+font-weight: 400;
+font-size: 40px;
+line-height: 49px;
+/* identical to box height */
+
+
+color: #930348;
+  }
+
+
+  .popular-card-container{
+    padding-top: 25vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 90vw;
+    margin-left: 5vw;
+  }
+  .popular-dishes{
+    font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 74px;
+/* identical to box height */
+padding-left: 35vw;
+padding-top: 5vh;
+
+color: #2F221C;
+  }
+.card-image{
+  margin-top: -150px;
+}
+.card-image2{
+  margin-top: -180px;
+}
+  .popular-card{
+    display: flex;
+    flex-direction: column;
+    justify-self:center ;
+    align-items: center;
+    width: 421px;
+height: 405px;
+background: rgba(147, 3, 72, 0.54);
+box-shadow: 0px 4px 24px 5px rgba(243, 170, 123, 0.2);
+border-radius: 30px;
+  }
+
+  .card-name{
+    font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 55px;
+
+color: #2F221C;
+  }
+
+  .card-desc{
+    font-style: italic;
+font-weight: 700;
+font-size: 25px;
+line-height: 31px;
+/* identical to box height */
+margin-top: -20px;
+color: #2F221C;
+  }
+  .card-name2{
+    font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 55px;
+margin-top: -20px;
+color: #2F221C;
+  }
+
+  .card-desc2{
+    font-style: italic;
+font-weight: 700;
+font-size: 25px;
+line-height: 31px;
+/* identical to box height */
+margin-top: -23px;
+color: #2F221C;
+  }
+  .price{
+    font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 55px;
+
+color: #930348;
+  }
+
+.recently-add-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 90vw;
+  margin-left: 10vw;
+  margin-top: 10vh;
+}
+
+.rec-text{
+  font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 49px;
+/* identical to box height */
+
+
+color: #930348;
+}
+
+.rec-sus{
+  font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 74px;
+
+color: #2F221C;
+}
+
+.rec-desc{
+  font-style: italic;
+font-weight: 700;
+font-size: 25px;
+line-height: 31px;
+width: 499px;
+height: 93px;
+color: #2F221C;
+}
+ 
+  .product-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 800px; /* Пример ограничения ширины до 1000 пикселей */
+  margin: 0 auto; /* Центрирование блока по горизонтали */
+  padding-bottom: 15vh;
+  }
+  
+  .product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .product-card img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .product-title {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .product-description {
+    margin-top: 5px;
+    color: #666;
+  }
+  
+  .product-price {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .add-to-cart {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #930348;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #ff4fa4;
+  }
+  
+
+  footer {
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     height: 30vh;
+    padding: 20px;
+    margin-top: 20vh;
+    max-width: 90vw;
+    margin-left: 5vw;
+  }
+  
+.footer-main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-main .column{
+  flex-direction: column;
+}
+.footer-main .column .footer-desc{
+  font-style: italic;
+font-weight: 700;
+font-size: 25px;
+line-height: 31px;
+
+color: #2F221C;
+
+
+}
+
+#desc{
+  padding-right: 10vw;
+  width: 374px;
+}
+
+.footer-info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 7vh;
+  margin-bottom: 7vh;
+}
+.footer-info .contact{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 20vw;
+}
+.footer-info .contact div{
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: #930348;
+}
+.footer-info .contact p{
+  font-style: italic;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #2F221C;
+}
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+
+  
+  .social ul{
+    display: flex;
+    flex-direction: row;
+  }
+  .social svg {
+    margin-right: 10px;
+  }
+  .home_icon_mobile{
+    visibility: hidden;
+  }
+  
+  /* Mobile Devices */
+@media (max-width: 766px) {
+  
+
+
+  
+  .blocks{
+    display: block;
+    max-width: 90vw;
+    align-items: center;
+    align-content: center;
+    padding-left: 4vw;
+  }
+  .home_icon_mobile{
+    visibility: visible;
+    color:#D9D9D9
+  }
+  
+
+  .blocks .another{
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+  }
+  nav ul {
+    display: none;
+    /* flex-direction: column;
+    align-items: flex-end; */
+  }
+
+  nav ul li {
+    margin-right: 0;
+    padding-left: 0;
+    margin-bottom: 10px;
+  }
+
+  
+  .search-container {
+    flex-direction: column;
+    align-items: stretch;
+    margin-top: 5vw;
+    width: 90vw;
+  }
+
+  .search-input {
+    margin-bottom: 10px;
+  }
+
+  .link{
+    font-size: 15px;
+    width: 60px;
+    top: 7%;
+    left: 15%;
+  }
+  .link2{
+    font-size: 12px;
+    width: 60px;
+    top: 10%;
+    left: 23%;
+  }
+  .blocks .sets .set_image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  .blocks .another{
+    padding-left: 3vw;
+  }
+
+  .blocks .another .set_images {
+    width: 25vw;
+    height: auto;
+    border-radius: 10px;
+    padding-right: 5vw;
+  }
+
+  .carousel-container {
+    max-width: 100%;
+  }
+  .title{
+    padding-left: 5vw;
+  }
+  .product-cards {
+    grid-template-columns: 1fr;
+    max-width: 80vw;
+  }
+  footer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 60vh;
+   background-color: #1D1D1D;
+   padding: 20px;
+ }
+ 
+  footer-text {
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    color: #777;
+  }
+  
+
+  
+    .contacts,
+    .social {
+      margin-bottom: 20px;
+      color: #D9D9D9;
+      font-size: 15px;
+    }
+   
+    .contacts ul li{
+      padding-bottom: 2vh;
+    }
+}
